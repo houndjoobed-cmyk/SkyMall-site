@@ -153,30 +153,75 @@ export const translations = {
       countries: 'Bénin · Cameroun · Côte d\'Ivoire',
       links: [
         { label: 'Confidentialité', href: '/privacy' },
+        { label: 'Suppression de compte', href: '/account-deletion' },
         { label: 'Contact', href: '/contact' }
       ],
     },
     privacy: {
       title: 'Politique de Confidentialité',
-      lastUpdated: 'Dernière mise à jour : 09 Juillet 2026',
+      lastUpdated: 'Dernière mise à jour : 13 Septembre 2026',
       content: [
         {
-          title: '1. Collecte des données',
-          text: 'Nous collectons les informations que vous nous fournissez directement, notamment lors de la création d\'un compte, de l\'achat d\'un produit ou de la communication avec notre support.'
+          title: '1. Données que nous collectons',
+          text: 'Compte : votre numéro de téléphone, votre nom, et facultativement un email et une photo de profil. Adresses de livraison que vous enregistrez pour vos commandes. Commandes et paiement : historique et statut de paiement — nous ne stockons jamais votre numéro Mobile Money complet, qui est traité directement par nos prestataires de paiement. Photos : uniquement lorsque vous choisissez d\'envoyer une image dans une discussion ou de configurer votre boutique.'
         },
         {
           title: '2. Utilisation des données',
-          text: 'Vos données nous permettent de fournir, maintenir et améliorer nos services, de traiter vos transactions et de vous envoyer des notifications liées à votre compte.'
+          text: 'Traiter vos commandes et paiements, vous envoyer des notifications liées à votre compte, personnaliser les produits recommandés, assurer la sécurité du compte et prévenir la fraude, et vous fournir un support client.'
         },
         {
-          title: '3. Partage des informations',
-          text: 'Nous ne vendons pas vos données personnelles. Elles peuvent être partagées avec des vendeurs tiers uniquement dans le cadre de l\'exécution de vos commandes.'
+          title: '3. Localisation',
+          text: 'Nous ne suivons jamais votre position GPS. SkyMall utilise uniquement la ville et le pays que vous renseignez vous-même dans votre profil ou votre adresse de livraison.'
         },
         {
-          title: '4. Sécurité',
-          text: 'Nous mettons en œuvre des mesures de sécurité pour protéger vos informations personnelles contre l\'accès non autorisé et la modification.'
+          title: '4. Partage des informations',
+          text: 'Le vendeur d\'une commande reçoit votre nom, téléphone et adresse de livraison, strictement nécessaires pour vous livrer. Nos prestataires de paiement Mobile Money (PawaPay, KKiaPay) traitent vos transactions directement. Notre infrastructure (Supabase) héberge nos données ; des rapports de plantage anonymisés (Sentry) nous aident à corriger les bugs. Nous ne vendons jamais vos données à des tiers à des fins publicitaires.'
+        },
+        {
+          title: '5. Conservation des données',
+          text: 'Vos données sont conservées tant que votre compte est actif. Les enregistrements de commandes et de paiement peuvent être conservés au-delà de la suppression de votre compte lorsque la loi comptable ou fiscale l\'exige.'
+        },
+        {
+          title: '6. Vos droits',
+          text: 'Vous pouvez consulter et corriger vos informations depuis l\'application. Vous pouvez supprimer votre compte instantanément depuis l\'application (Profil > Paramètres > Supprimer mon compte), ou, si vous n\'avez plus l\'application, en faire la demande depuis notre page de suppression de compte.'
+        },
+        {
+          title: '7. Sécurité',
+          text: 'Vos données transitent de manière chiffrée entre l\'application et nos serveurs, et l\'accès à vos données est restreint pour qu\'un autre utilisateur ne puisse jamais accéder à vos commandes ou messages.'
+        },
+        {
+          title: '8. Enfants',
+          text: 'SkyMall n\'est pas destiné aux personnes de moins de 16 ans et nous ne collectons pas sciemment de données les concernant.'
+        },
+        {
+          title: '9. Contact',
+          text: 'Pour toute question concernant cette politique ou vos données personnelles, contactez-nous depuis notre page de contact ou par email à sky.mall.0026@gmail.com.'
         }
       ]
+    },
+    accountDeletion: {
+      title: 'Suppression de compte',
+      sub: 'Vous pouvez demander la suppression de votre compte et de vos données SkyMall, que vous ayez ou non l\'application installée.',
+      fastestTitle: 'Le plus rapide : depuis l\'application',
+      fastestText: 'Ouvrez SkyMall, puis Profil > Paramètres > Supprimer définitivement mon compte. La suppression est immédiate et ne nécessite aucune attente.',
+      formTitle: 'Depuis ce site, si vous n\'avez plus l\'application',
+      formSub: 'Remplissez ce formulaire et notre équipe traitera votre demande dans les meilleurs délais.',
+      form: {
+        name: 'Nom complet',
+        contact: 'Téléphone ou email associé à votre compte',
+        reason: 'Motif (optionnel)',
+        submit: 'Envoyer la demande de suppression',
+        success: 'Votre demande a été envoyée. Notre équipe vous contactera pour confirmer la suppression.'
+      },
+      whatTitle: 'Ce qui est supprimé',
+      what: [
+        'Votre profil, nom, email et photo',
+        'Vos adresses de livraison enregistrées',
+        'Votre historique de discussions et votre liste de souhaits',
+        'Vos préférences et données de personnalisation'
+      ],
+      retainTitle: 'Ce qui peut être conservé',
+      retainText: 'Les enregistrements de commandes et de transactions peuvent être conservés au-delà de la suppression de votre compte lorsque la loi comptable ou fiscale l\'exige. Ces données ne sont plus liées à un compte actif et ne sont utilisées à aucune autre fin.'
     },
     contact: {
       title: 'Contactez-nous',
@@ -343,30 +388,75 @@ export const translations = {
       countries: 'Benin · Cameroon · Ivory Coast',
       links: [
         { label: 'Privacy', href: '/privacy' },
+        { label: 'Delete Account', href: '/account-deletion' },
         { label: 'Contact', href: '/contact' }
       ],
     },
     privacy: {
       title: 'Privacy Policy',
-      lastUpdated: 'Last updated: July 09, 2026',
+      lastUpdated: 'Last updated: September 13, 2026',
       content: [
         {
-          title: '1. Data Collection',
-          text: 'We collect information you provide directly to us, such as when you create an account, make a purchase, or contact our support.'
+          title: '1. Data we collect',
+          text: 'Account: your phone number, your name, and optionally an email and a profile photo. Delivery addresses you save for your orders. Orders and payment: order history and payment status — we never store your full Mobile Money number, which is handled directly by our payment providers. Photos: only when you choose to send an image in a chat or set up your shop.'
         },
         {
-          title: '2. Data Usage',
-          text: 'Your data allows us to provide, maintain, and improve our services, process your transactions, and send you account-related notifications.'
+          title: '2. How we use this data',
+          text: 'To process your orders and payments, send you account-related notifications, personalize recommended products, keep your account secure and prevent fraud, and provide customer support.'
         },
         {
-          title: '3. Information Sharing',
-          text: 'We do not sell your personal data. It may be shared with third-party sellers only for the purpose of fulfilling your orders.'
+          title: '3. Location',
+          text: 'We never track your GPS location. SkyMall only uses the city and country you provide yourself in your profile or delivery address.'
         },
         {
-          title: '4. Security',
-          text: 'We implement security measures to protect your personal information against unauthorized access and modification.'
+          title: '4. Information sharing',
+          text: 'The seller for an order receives your name, phone number, and delivery address, strictly what\'s needed to deliver it. Our Mobile Money payment providers (PawaPay, KKiaPay) process your transactions directly. Our infrastructure (Supabase) hosts our data; anonymized crash reports (Sentry) help us fix bugs. We never sell your data to third parties for advertising.'
+        },
+        {
+          title: '5. Data retention',
+          text: 'Your data is kept for as long as your account is active. Order and payment records may be retained beyond account deletion where accounting or tax law requires it.'
+        },
+        {
+          title: '6. Your rights',
+          text: 'You can view and correct your information from the app. You can delete your account instantly from the app (Profile > Settings > Delete my account), or, if you no longer have the app, request it from our account deletion page.'
+        },
+        {
+          title: '7. Security',
+          text: 'Your data travels encrypted between the app and our servers, and access to your data is restricted so another user can never access your orders or messages.'
+        },
+        {
+          title: '8. Children',
+          text: 'SkyMall is not directed at people under 16, and we do not knowingly collect data about them.'
+        },
+        {
+          title: '9. Contact',
+          text: 'For any question about this policy or your personal data, contact us from our contact page or by email at sky.mall.0026@gmail.com.'
         }
       ]
+    },
+    accountDeletion: {
+      title: 'Delete Your Account',
+      sub: 'You can request the deletion of your SkyMall account and data, whether or not you still have the app installed.',
+      fastestTitle: 'Fastest: from the app',
+      fastestText: 'Open SkyMall, then Profile > Settings > Permanently delete my account. Deletion is immediate and needs no waiting.',
+      formTitle: "From this site, if you no longer have the app",
+      formSub: 'Fill out this form and our team will process your request as soon as possible.',
+      form: {
+        name: 'Full Name',
+        contact: 'Phone number or email on your account',
+        reason: 'Reason (optional)',
+        submit: 'Send deletion request',
+        success: 'Your request has been sent. Our team will contact you to confirm the deletion.'
+      },
+      whatTitle: "What's deleted",
+      what: [
+        'Your profile, name, email, and photo',
+        'Your saved delivery addresses',
+        'Your chat history and wishlist',
+        'Your preferences and personalization data'
+      ],
+      retainTitle: 'What may be retained',
+      retainText: 'Order and transaction records may be retained beyond account deletion where accounting or tax law requires it. This data is no longer linked to an active account and is not used for any other purpose.'
     },
     contact: {
       title: 'Contact Us',
