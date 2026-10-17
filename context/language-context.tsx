@@ -17,14 +17,16 @@ export const translations = {
       line1: 'Votre marché,',
       line2: 'partout en',
       line3: 'Afrique.',
-      sub: "SkyMall connecte acheteurs et vendeurs au Bénin, Cameroun et en Côte d'Ivoire — paiements mobile, livraison locale, confiance garantie.",
+      sub: 'SkyMall connecte acheteurs et vendeurs au Bénin et au Cameroun — paiements mobile, livraison locale, confiance garantie.',
+      // Côte d\'Ivoire, kept in case it comes back:
+      // sub: "SkyMall connecte acheteurs et vendeurs au Bénin, Cameroun et en Côte d'Ivoire — paiements mobile, livraison locale, confiance garantie.",
       cta1: "Rejoindre la liste d'attente",
       cta2: 'Devenir vendeur',
       flagLabel: 'Disponible au',
     },
     stats: {
       items: [
-        { value: '3', label: 'Pays couverts' },
+        { value: '2', label: 'Pays couverts' }, // was '3' with Côte d\'Ivoire
         { value: 'Mobile', label: 'Paiement Money' },
         { value: 'FR / EN', label: 'Interface bilingue' },
         { value: '2026', label: 'Lancement officiel' },
@@ -87,13 +89,13 @@ export const translations = {
             'Boutique en ligne gratuite, créée en quelques minutes',
             'Dashboard : produits, commandes, revenus en temps réel',
             'Paiements automatiques — sans intermédiaire',
-            'Accès simultané à 3 marchés',
+            'Accès simultané à 2 marchés', // was 3 with Côte d'Ivoire
             'Logistique plateforme en option',
           ],
           card: {
             label: 'PORTAIL VENDEUR',
-            main: '+3 pays d\'accès',
-            sub: 'Bénin · Cameroun · Côte d\'Ivoire',
+            main: '+2 pays d\'accès', // was '+3 pays d\'accès' with Côte d\'Ivoire
+            sub: 'Bénin · Cameroun', // was 'Bénin · Cameroun · Côte d\'Ivoire'
             tags: ['Dashboard web', 'KYC', 'Paiements auto'],
           },
         },
@@ -116,8 +118,8 @@ export const translations = {
     },
     markets: {
       label: 'MARCHÉS',
-      title: '3 pays. 1 plateforme.',
-      sub: 'Un déploiement simultané sur trois marchés clés d\'Afrique de l\'Ouest et centrale.',
+      title: '2 pays. 1 plateforme.', // was '3 pays. 1 plateforme.' with Côte d\'Ivoire
+      sub: 'Un déploiement simultané sur deux marchés clés d\'Afrique de l\'Ouest et centrale.',
       cards: [
         {
           flag: '🇧🇯',
@@ -131,12 +133,13 @@ export const translations = {
           info: 'Douala & Yaoundé — MTN & Orange — XAF',
           badge: 'Marché de lancement',
         },
-        {
-          flag: '🇨🇮',
-          name: "Côte d'Ivoire",
-          info: 'Abidjan — Orange & MTN — XOF',
-          badge: 'Marché de lancement',
-        },
+        // Côte d'Ivoire, kept in case it comes back:
+        // {
+        //   flag: '🇨🇮',
+        //   name: "Côte d'Ivoire",
+        //   info: 'Abidjan — Orange & MTN — XOF',
+        //   badge: 'Marché de lancement',
+        // },
       ],
     },
     waitlist: {
@@ -150,7 +153,7 @@ export const translations = {
     },
     footer: {
       copy: '© 2026 SkyMall',
-      countries: 'Bénin · Cameroun · Côte d\'Ivoire',
+      countries: 'Bénin · Cameroun', // was 'Bénin · Cameroun · Côte d\'Ivoire'
       links: [
         { label: 'Conditions d\'utilisation', href: '/terms' },
         { label: 'Confidentialité', href: '/privacy' },
@@ -337,14 +340,16 @@ export const translations = {
       line1: 'Your market,',
       line2: 'everywhere in',
       line3: 'Africa.',
-      sub: 'SkyMall connects buyers and sellers in Benin, Cameroon, and Ivory Coast — mobile payments, local delivery, guaranteed trust.',
+      sub: 'SkyMall connects buyers and sellers in Benin and Cameroon — mobile payments, local delivery, guaranteed trust.',
+      // Ivory Coast, kept in case it comes back:
+      // sub: 'SkyMall connects buyers and sellers in Benin, Cameroon, and Ivory Coast — mobile payments, local delivery, guaranteed trust.',
       cta1: 'Join the waitlist',
       cta2: 'Become a seller',
       flagLabel: 'Available in',
     },
     stats: {
       items: [
-        { value: '3', label: 'Countries covered' },
+        { value: '2', label: 'Countries covered' }, // was '3' with Ivory Coast
         { value: 'Mobile', label: 'Money payment' },
         { value: 'FR / EN', label: 'Bilingual interface' },
         { value: '2026', label: 'Official launch' },
@@ -407,13 +412,13 @@ export const translations = {
             'Free online store, created in minutes',
             'Dashboard: products, orders, revenue in real time',
             'Automatic payments — no middleman',
-            'Simultaneous access to 3 markets',
+            'Simultaneous access to 2 markets', // was 3 with Ivory Coast
             'Optional platform logistics',
           ],
           card: {
             label: 'SELLER PORTAL',
-            main: '+3 country access',
-            sub: 'Benin · Cameroon · Ivory Coast',
+            main: '+2 country access', // was '+3 country access' with Ivory Coast
+            sub: 'Benin · Cameroon', // was 'Benin · Cameroon · Ivory Coast'
             tags: ['Web dashboard', 'KYC', 'Auto payments'],
           },
         },
@@ -436,8 +441,8 @@ export const translations = {
     },
     markets: {
       label: 'MARKETS',
-      title: '3 countries. 1 platform.',
-      sub: 'A simultaneous rollout across three key West and Central African markets.',
+      title: '2 countries. 1 platform.', // was '3 countries. 1 platform.' with Ivory Coast
+      sub: 'A simultaneous rollout across two key West and Central African markets.',
       cards: [
         {
           flag: '🇧🇯',
@@ -451,12 +456,13 @@ export const translations = {
           info: 'Douala & Yaoundé — MTN & Orange — XAF',
           badge: 'Launch market',
         },
-        {
-          flag: '🇨🇮',
-          name: 'Ivory Coast',
-          info: 'Abidjan — Orange & MTN — XOF',
-          badge: 'Launch market',
-        },
+        // Ivory Coast, kept in case it comes back:
+        // {
+        //   flag: '🇨🇮',
+        //   name: 'Ivory Coast',
+        //   info: 'Abidjan — Orange & MTN — XOF',
+        //   badge: 'Launch market',
+        // },
       ],
     },
     waitlist: {
@@ -470,7 +476,7 @@ export const translations = {
     },
     footer: {
       copy: '© 2026 SkyMall',
-      countries: 'Benin · Cameroon · Ivory Coast',
+      countries: 'Benin · Cameroon', // was 'Benin · Cameroon · Ivory Coast'
       links: [
         { label: 'Terms of Use', href: '/terms' },
         { label: 'Privacy', href: '/privacy' },
