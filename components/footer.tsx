@@ -20,7 +20,7 @@ export function Footer() {
           {t.footer.countries}
         </p>
 
-        <div className="flex items-center gap-5">
+        <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 md:justify-end">
           {t.footer.links.map((link) => (
             <a
               key={link.href}
