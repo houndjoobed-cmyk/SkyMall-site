@@ -152,7 +152,9 @@ export const translations = {
       copy: '© 2026 SkyMall',
       countries: 'Bénin · Cameroun · Côte d\'Ivoire',
       links: [
+        { label: 'Conditions d\'utilisation', href: '/terms' },
         { label: 'Confidentialité', href: '/privacy' },
+        { label: 'Mentions légales', href: '/legal-notice' },
         { label: 'Suppression de compte', href: '/account-deletion' },
         { label: 'Contact', href: '/contact' }
       ],
@@ -222,6 +224,89 @@ export const translations = {
       ],
       retainTitle: 'Ce qui peut être conservé',
       retainText: 'Les enregistrements de commandes et de transactions peuvent être conservés au-delà de la suppression de votre compte lorsque la loi comptable ou fiscale l\'exige. Ces données ne sont plus liées à un compte actif et ne sont utilisées à aucune autre fin.'
+    },
+    terms: {
+      title: 'Conditions Générales d\'Utilisation',
+      lastUpdated: 'Dernière mise à jour : 17 Octobre 2026',
+      intro: 'Bienvenue sur SkyMall. Veuillez lire attentivement ces conditions avant d\'utiliser notre application et notre site.',
+      content: [
+        {
+          title: '1. Acceptation des conditions',
+          text: 'En créant un compte, en accédant ou en utilisant l\'application SkyMall ou ce site (le « Service »), vous acceptez d\'être lié par les présentes Conditions Générales d\'Utilisation. Si vous n\'acceptez pas ces conditions, vous ne devez pas utiliser le Service.'
+        },
+        {
+          title: '2. Rôle de la plateforme SkyMall',
+          text: 'SkyMall est un marché en ligne (marketplace) qui permet à des vendeurs indépendants de présenter et de vendre leurs produits, et à des clients d\'acheter ces produits. SkyMall facilite la mise en relation et la transaction, mais n\'est pas le vendeur des produits, sauf indication contraire. Chaque vendeur est responsable de ses produits, de leur description et de leur livraison.'
+        },
+        {
+          title: '3. Inscription et sécurité du compte',
+          text: 'Pour effectuer des achats sur SkyMall, vous devez vous inscrire avec un numéro de téléphone valide. Vous êtes responsable de la confidentialité de votre compte et de vos identifiants. Toute activité effectuée depuis votre compte est sous votre entière responsabilité.'
+        },
+        {
+          title: '4. Commandes, prix et paiements',
+          text: 'Les prix sont fixés par les vendeurs et affichés en FCFA (XOF ou XAF selon votre région). SkyMall calcule et vérifie le montant de chaque commande (produits, frais de livraison, frais de service, réductions) côté serveur avant le paiement : le montant affiché à l\'écran n\'est qu\'un aperçu. Les paiements s\'effectuent par les moyens intégrés à l\'application (par exemple Mobile Money, carte bancaire, virement bancaire ou portefeuille SkyMall, selon le pays et la disponibilité), traités par nos prestataires de paiement.'
+        },
+        {
+          title: '5. Livraison, litiges et remboursements',
+          text: 'La livraison est assurée par le vendeur. Les frais et délais dépendent de la boutique, de l\'adresse de livraison et de l\'option choisie (standard ou express). En cas de commande non reçue ou défectueuse, contactez immédiatement notre assistance depuis l\'application ou par email : nous examinons la demande avec le vendeur.'
+        },
+        {
+          title: '6. Comportements interdits',
+          text: 'Il est interdit d\'utiliser le Service pour vendre ou acheter des produits illégaux, de tromper d\'autres utilisateurs, de tenter d\'accéder aux comptes ou aux données d\'autrui, ou de perturber le fonctionnement du Service. SkyMall peut suspendre ou supprimer un compte ou un contenu qui ne respecte pas ces conditions.'
+        },
+        {
+          title: '7. Propriété intellectuelle',
+          text: 'Les contenus propres à SkyMall (logos, design, textes, icônes) sont la propriété exclusive de SkyMall ou de ses partenaires et sont protégés par les lois sur la propriété intellectuelle. Toute reproduction non autorisée est interdite. Les vendeurs restent propriétaires de leurs contenus (photos, descriptions) et accordent à SkyMall le droit de les afficher sur le Service.'
+        },
+        {
+          title: '8. Données personnelles et suppression du compte',
+          text: 'Le traitement de vos données personnelles est décrit dans notre Politique de Confidentialité. Vous pouvez supprimer votre compte à tout moment depuis l\'application ou depuis notre page de suppression de compte.'
+        },
+        {
+          title: '9. Modifications des conditions',
+          text: 'Nous pouvons modifier ces conditions. Les modifications prennent effet après leur publication dans l\'application et sur ce site, avec une nouvelle date de mise à jour. En continuant à utiliser le Service après ces modifications, vous les acceptez.'
+        },
+        {
+          title: '10. Contact',
+          text: 'Pour toute question relative à ces conditions ou pour une réclamation, contactez-nous depuis l\'onglet assistance de l\'application, depuis notre page de contact ou par email à sky.mall.0026@gmail.com.'
+        }
+      ]
+    },
+    legal: {
+      title: 'Mentions Légales',
+      lastUpdated: 'Dernière mise à jour : 17 Octobre 2026',
+      publisherTitle: 'Éditeur du site et de l\'application',
+      labels: {
+        brand: 'Nom commercial',
+        companyName: 'Dénomination sociale',
+        legalForm: 'Forme juridique',
+        registrationNumber: 'Immatriculation',
+        headOffice: 'Siège social',
+        publicationDirector: 'Directeur de la publication',
+        email: 'Email'
+      },
+      content: [
+        {
+          title: 'Hébergement',
+          text: 'Ce site est hébergé par Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis (vercel.com). Les données de l\'application SkyMall sont hébergées par Supabase (supabase.com).'
+        },
+        {
+          title: 'Propriété intellectuelle',
+          text: 'La marque SkyMall, le logo, le design et les contenus du site et de l\'application sont protégés. Toute reproduction, représentation ou utilisation sans autorisation écrite préalable est interdite.'
+        },
+        {
+          title: 'Responsabilité',
+          text: 'SkyMall est une plateforme de mise en relation entre vendeurs indépendants et acheteurs. Les produits sont proposés et livrés par les vendeurs, qui en sont responsables. Nous nous efforçons de maintenir le site accessible et ses informations exactes, sans garantie d\'absence d\'erreur ou d\'interruption.'
+        },
+        {
+          title: 'Données personnelles',
+          text: 'Le traitement de vos données est décrit dans notre Politique de Confidentialité. Vous pouvez demander la suppression de votre compte et de vos données depuis notre page de suppression de compte.'
+        },
+        {
+          title: 'Contact',
+          text: 'Pour toute question concernant ces mentions légales, écrivez-nous à sky.mall.0026@gmail.com ou utilisez notre page de contact.'
+        }
+      ]
     },
     contact: {
       title: 'Contactez-nous',
@@ -387,7 +472,9 @@ export const translations = {
       copy: '© 2026 SkyMall',
       countries: 'Benin · Cameroon · Ivory Coast',
       links: [
+        { label: 'Terms of Use', href: '/terms' },
         { label: 'Privacy', href: '/privacy' },
+        { label: 'Legal Notice', href: '/legal-notice' },
         { label: 'Delete Account', href: '/account-deletion' },
         { label: 'Contact', href: '/contact' }
       ],
@@ -457,6 +544,89 @@ export const translations = {
       ],
       retainTitle: 'What may be retained',
       retainText: 'Order and transaction records may be retained beyond account deletion where accounting or tax law requires it. This data is no longer linked to an active account and is not used for any other purpose.'
+    },
+    terms: {
+      title: 'General Terms of Use',
+      lastUpdated: 'Last updated: October 17, 2026',
+      intro: 'Welcome to SkyMall. Please read these terms carefully before using our application and website.',
+      content: [
+        {
+          title: '1. Acceptance of the terms',
+          text: 'By creating an account, accessing or using the SkyMall application or this website (the "Service"), you agree to be bound by these General Terms of Use. If you do not agree to these terms, you must not use the Service.'
+        },
+        {
+          title: '2. Role of the SkyMall platform',
+          text: 'SkyMall is an online marketplace that allows independent sellers to present and sell their products, and customers to buy them. SkyMall facilitates the connection and the transaction, but is not the seller of the products unless stated otherwise. Each seller is responsible for their products, their description and their delivery.'
+        },
+        {
+          title: '3. Registration and account security',
+          text: 'To buy on SkyMall you must register with a valid phone number. You are responsible for keeping your account and credentials confidential. All activity carried out from your account is your sole responsibility.'
+        },
+        {
+          title: '4. Orders, prices and payments',
+          text: 'Prices are set by sellers and shown in FCFA (XOF or XAF depending on your region). SkyMall calculates and checks the amount of every order (products, delivery fees, service fees, discounts) on the server before payment: the amount shown on screen is only a preview. Payments are made through the methods built into the app (for example Mobile Money, bank card, bank transfer or the SkyMall wallet, depending on the country and availability), processed by our payment providers.'
+        },
+        {
+          title: '5. Delivery, disputes and refunds',
+          text: 'Delivery is carried out by the seller. Fees and delivery times depend on the shop, the delivery address and the option chosen (standard or express). If an order is not received or is defective, contact our support immediately from the app or by email: we review the request with the seller.'
+        },
+        {
+          title: '6. Prohibited conduct',
+          text: 'You must not use the Service to sell or buy illegal products, to deceive other users, to try to access other people\'s accounts or data, or to disrupt the Service. SkyMall may suspend or delete an account or content that does not comply with these terms.'
+        },
+        {
+          title: '7. Intellectual property',
+          text: 'Content specific to SkyMall (logos, design, texts, icons) is the exclusive property of SkyMall or its partners and is protected by intellectual property laws. Any unauthorized reproduction is prohibited. Sellers remain the owners of their content (photos, descriptions) and grant SkyMall the right to display it on the Service.'
+        },
+        {
+          title: '8. Personal data and account deletion',
+          text: 'How we process your personal data is described in our Privacy Policy. You can delete your account at any time from the app or from our account deletion page.'
+        },
+        {
+          title: '9. Changes to the terms',
+          text: 'We may change these terms. Changes take effect once published in the app and on this website, with a new update date. By continuing to use the Service after the changes, you accept them.'
+        },
+        {
+          title: '10. Contact',
+          text: 'For any question about these terms or to make a complaint, contact us from the support tab of the app, from our contact page or by email at sky.mall.0026@gmail.com.'
+        }
+      ]
+    },
+    legal: {
+      title: 'Legal Notice',
+      lastUpdated: 'Last updated: October 17, 2026',
+      publisherTitle: 'Publisher of the website and the application',
+      labels: {
+        brand: 'Trade name',
+        companyName: 'Company name',
+        legalForm: 'Legal form',
+        registrationNumber: 'Registration',
+        headOffice: 'Head office',
+        publicationDirector: 'Publication director',
+        email: 'Email'
+      },
+      content: [
+        {
+          title: 'Hosting',
+          text: 'This website is hosted by Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA (vercel.com). The SkyMall application data is hosted by Supabase (supabase.com).'
+        },
+        {
+          title: 'Intellectual property',
+          text: 'The SkyMall brand, logo, design and the content of the website and the application are protected. Any reproduction, representation or use without prior written permission is prohibited.'
+        },
+        {
+          title: 'Liability',
+          text: 'SkyMall is a platform that connects independent sellers and buyers. Products are offered and delivered by the sellers, who are responsible for them. We do our best to keep the website available and its information accurate, without any guarantee that it is free of errors or interruptions.'
+        },
+        {
+          title: 'Personal data',
+          text: 'How we process your data is described in our Privacy Policy. You can request the deletion of your account and data from our account deletion page.'
+        },
+        {
+          title: 'Contact',
+          text: 'For any question about this legal notice, write to us at sky.mall.0026@gmail.com or use our contact page.'
+        }
+      ]
     },
     contact: {
       title: 'Contact Us',
