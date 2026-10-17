@@ -164,7 +164,7 @@ export const translations = {
     },
     privacy: {
       title: 'Politique de Confidentialité',
-      lastUpdated: 'Dernière mise à jour : 13 Septembre 2026',
+      lastUpdated: 'Dernière mise à jour : 17 Octobre 2026',
       content: [
         {
           title: '1. Données que nous collectons',
@@ -201,6 +201,10 @@ export const translations = {
         {
           title: '9. Contact',
           text: 'Pour toute question concernant cette politique ou vos données personnelles, contactez-nous depuis notre page de contact ou par email à sky.mall.0026@gmail.com.'
+        },
+        {
+          title: '10. Responsable du traitement',
+          text: 'Le responsable du traitement de vos données personnelles est SKY MALL, établissement exploité par Marthe Priscilla Chikaly Kanodi, immatriculé au Registre du Commerce et du Crédit Mobilier de Cotonou sous le n° RB/ABC/26 A 143676 (IFU 0202666213295), établi à Akassato, Abomey-Calavi, Bénin. Vous pouvez exercer vos droits en écrivant à sky.mall.0026@gmail.com.'
         }
       ]
     },
@@ -280,12 +284,15 @@ export const translations = {
       lastUpdated: 'Dernière mise à jour : 17 Octobre 2026',
       publisherTitle: 'Éditeur du site et de l\'application',
       labels: {
-        brand: 'Nom commercial',
-        companyName: 'Dénomination sociale',
+        brand: 'Nom commercial et enseigne',
         legalForm: 'Forme juridique',
-        registrationNumber: 'Immatriculation',
-        headOffice: 'Siège social',
-        publicationDirector: 'Directeur de la publication',
+        owner: 'Exploitante',
+        activity: 'Activité',
+        rccm: 'Registre du commerce',
+        ifu: 'N° IFU',
+        taxRegime: 'Régime fiscal',
+        headOffice: 'Établissement principal',
+        publicationDirector: 'Directrice de la publication',
         email: 'Email'
       },
       content: [
@@ -324,7 +331,7 @@ export const translations = {
       info: {
         title: 'Informations',
         email: 'sky.mall.0026@gmail.com',
-        address: 'Cotonou, Bénin'
+        address: 'Akassato, Abomey-Calavi, Bénin' // was 'Cotonou, Bénin': the registered establishment is in Abomey-Calavi
       }
     },
   },
@@ -487,7 +494,7 @@ export const translations = {
     },
     privacy: {
       title: 'Privacy Policy',
-      lastUpdated: 'Last updated: September 13, 2026',
+      lastUpdated: 'Last updated: October 17, 2026',
       content: [
         {
           title: '1. Data we collect',
@@ -524,6 +531,10 @@ export const translations = {
         {
           title: '9. Contact',
           text: 'For any question about this policy or your personal data, contact us from our contact page or by email at sky.mall.0026@gmail.com.'
+        },
+        {
+          title: '10. Data controller',
+          text: 'The controller of your personal data is SKY MALL, an establishment operated by Marthe Priscilla Chikaly Kanodi, registered in the Trade and Personal Property Credit Register of Cotonou under no. RB/ABC/26 A 143676 (IFU 0202666213295), established in Akassato, Abomey-Calavi, Benin. You can exercise your rights by writing to sky.mall.0026@gmail.com.'
         }
       ]
     },
@@ -603,11 +614,14 @@ export const translations = {
       lastUpdated: 'Last updated: October 17, 2026',
       publisherTitle: 'Publisher of the website and the application',
       labels: {
-        brand: 'Trade name',
-        companyName: 'Company name',
+        brand: 'Trade name and sign',
         legalForm: 'Legal form',
-        registrationNumber: 'Registration',
-        headOffice: 'Head office',
+        owner: 'Owner-operator',
+        activity: 'Activity',
+        rccm: 'Trade register',
+        ifu: 'IFU number',
+        taxRegime: 'Tax regime',
+        headOffice: 'Main establishment',
         publicationDirector: 'Publication director',
         email: 'Email'
       },
@@ -647,7 +661,7 @@ export const translations = {
       info: {
         title: 'Information',
         email: 'sky.mall.0026@gmail.com',
-        address: 'Cotonou, Benin'
+        address: 'Akassato, Abomey-Calavi, Benin' // was 'Cotonou, Benin': the registered establishment is in Abomey-Calavi
       }
     },
   },

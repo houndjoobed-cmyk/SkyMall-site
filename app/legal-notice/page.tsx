@@ -12,9 +12,12 @@ export default function LegalNoticePage() {
   // A row is shown only when its value is filled in (see lib/legal-info.ts).
   const rows: { label: string; value: string }[] = [
     { label: labels.brand, value: legalInfo.brand },
-    { label: labels.companyName, value: legalInfo.companyName },
-    { label: labels.legalForm, value: legalInfo.legalForm },
-    { label: labels.registrationNumber, value: legalInfo.registrationNumber },
+    { label: labels.legalForm, value: legalInfo.legalForm[lang] },
+    { label: labels.owner, value: legalInfo.owner },
+    { label: labels.activity, value: legalInfo.activity[lang] },
+    { label: labels.rccm, value: legalInfo.rccm[lang] },
+    { label: labels.ifu, value: legalInfo.ifu },
+    { label: labels.taxRegime, value: legalInfo.taxRegime[lang] },
     { label: labels.headOffice, value: legalInfo.headOffice[lang] },
     { label: labels.publicationDirector, value: legalInfo.publicationDirector },
     { label: labels.email, value: legalInfo.email },
