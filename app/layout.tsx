@@ -20,7 +20,9 @@ export const metadata: Metadata = {
   metadataBase: new URL('http://localhost:3000'),
   title: 'SkyMall — Votre marché, partout en Afrique',
   description:
-    'SkyMall connecte acheteurs et vendeurs au Bénin, Cameroun et en Côte d\'Ivoire — paiements mobile, livraison locale, confiance garantie. Lancement septembre 2026.',
+    'SkyMall connecte acheteurs et vendeurs au Bénin et au Cameroun — paiements mobile, livraison locale, confiance garantie. Lancement septembre 2026.',
+  // Côte d'Ivoire, kept in case it comes back:
+  // 'SkyMall connecte acheteurs et vendeurs au Bénin, Cameroun et en Côte d\'Ivoire — paiements mobile, livraison locale, confiance garantie. Lancement septembre 2026.',
   generator: 'v0.app',
   openGraph: {
     title: 'SkyMall — Votre marché, partout en Afrique',

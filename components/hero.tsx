@@ -94,7 +94,7 @@ export function Hero() {
           {[
             { flag: '🇧🇯', name: 'Bénin' },
             { flag: '🇨🇲', name: 'Cameroun' },
-            { flag: '🇨🇮', name: "Côte d'Ivoire" },
+            // { flag: '🇨🇮', name: "Côte d'Ivoire" }, // kept in case it comes back
           ].map((c, i) => (
             <motion.span
               key={c.name}

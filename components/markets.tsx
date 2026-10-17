@@ -32,7 +32,9 @@ export function Markets() {
         whileInView="visible"
         viewport={{ once: true, margin: '-60px' }}
         variants={containerVariants}
-        className="mx-auto mt-14 grid max-w-5xl grid-cols-1 gap-5 md:grid-cols-3"
+        // Two markets for now. With Côte d'Ivoire back it was:
+        //   "mx-auto mt-14 grid max-w-5xl grid-cols-1 gap-5 md:grid-cols-3"
+        className="mx-auto mt-14 grid max-w-3xl grid-cols-1 gap-5 md:grid-cols-2"
       >
         {t.markets.cards.map((card) => (
           <motion.div
